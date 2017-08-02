@@ -76,19 +76,19 @@ aop:
       default:
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.jdbc.Driver
-        url: jdbc:mysql://default:3306/ibook?useUnicode=true&characterEncoding=UTF-8
+        url: jdbc:mysql://default:3306/test?useUnicode=true&characterEncoding=UTF-8
         username: root
         password: 123456
       ds1:
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.jdbc.Driver
-        url: jdbc:mysql://ds1:3306/hainan_bigdata?useUnicode=true&characterEncoding=UTF-8
+        url: jdbc:mysql://ds1:3306/test?useUnicode=true&characterEncoding=UTF-8
         username: root
         password: 123456
       ds2:
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.jdbc.Driver
-        url: jdbc:mysql://ds2:3306/ibook?useUnicode=true&characterEncoding=UTF-8
+        url: jdbc:mysql://ds2:3306/test?useUnicode=true&characterEncoding=UTF-8
         username: root
         password: 123456
 ```

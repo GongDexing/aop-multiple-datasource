@@ -22,4 +22,6 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
 aop-multiple-datasource.jar
+.mvn

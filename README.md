@@ -1,5 +1,5 @@
 # aop-multiple-datasource
-在spring boot中absractRoutingDataSource类可以用来实现数据库的动态切换，而在很多业务场景也确实需要进行数据库切换
+在spring boot中absractRoutingDataSource类可以用来实现数据库的动态切换，而在很多业务场景也确实需要进行数据源切换
 - 数据库读写分离，查询操作在读库上，而增删改在写库上，能够极大的提高数据库并发性能
 - 业务在数据库级别的解构，微服务架构下，每个独立的服务，都有自己的数据库，然后很多时候，业务会涉及多个多个数据库
 
